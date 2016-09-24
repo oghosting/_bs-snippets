@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+  <title>Element | BS Grid System</title>
+  <meta name="description" content="This is a simple template created by Element Web Development">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-inverse" role="navigation">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Creative Element</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="grid.html">Grid</a></li>
+        <li><a href="typography.html">Typography</a></li>
+        <li><a href="tables.html">Tables</a></li>
+        <li class="dropdown">
+          <!-- Attention: This may need dropdown.js -->
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            About
+            <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav><!-- end #nav -->
+
+
+  <!-- Basic Grid Structure -->
+  <div class="container">
+    <div class="row">
+      <div class="col-*-*"></div>
+      <div class="col-*-*"></div>
+    </div><!-- end .row -->
+    <div class="row"></div>
+  </div><!-- end .container -->
+
+  <div class="container">
+    <div class="row">
+      <!-- add columns here -->
+    </div>
+  </div>
+
+  <!-- Example: Stacked to Horizontal -->
+  <div class="container">
+
+    <h1>Element <span class="small">Bootstrap Grid System</span></h1>
+    <div class="row">
+      <h3>Tablet only <span class="small">col-6-md</span></h3>
+      <div class="stack-bg col-md-6">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet tempor tortor, vel blandit neque. Ut eros quam, feugiat vel erat sed, semper rutrum nibh. Vivamus felis nunc, scelerisque sit amet consectetur ultrices, pulvinar a orci. Quisque imperdiet urna felis, in mattis nulla viverra sed. Cras iaculis facilisis ligula non consequat. Nullam dapibus cursus est, vel iaculis nunc interdum vitae.</p>
+        <p>Quisque consequat iaculis dapibus. Sed consequat nulla justo. Vestibulum bibendum ipsum eros, ut euismod ligula faucibus euismod. Duis eget urna cursus sem fermentum blandit. Curabitur sit amet rutrum massa. Aliquam porttitor nunc rhoncus ante vehicula, ac varius orci eleifend. Aliquam aliquet ex ut ullamcorper consequat. Pellentesque ullamcorper nisl lacus, id consequat odio elementum ac. Donec sodales ipsum eu elementum pretium.</p>
+      </div>
+      <div class="stack-bg col-md-6">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet tempor tortor, vel blandit neque. Ut eros quam, feugiat vel erat sed, semper rutrum vitae.</p>
+        <p>Curabitur sit amet rutrum massa. Aliquam porttitor nunc rhoncus ante vehicula, ac varius orci eleifend. Aliquam aliquet ex ut ullamcorper consequat. Pellentesque ullamcorper nisl lacus, id consequat odio elementum ac. Donec sodales ipsum eu elementum pretium.</p>
+      </div>
+    </div><!-- end .row -->
+  </div><!-- end .container -->
+
+  <div class="container">
+
+    <h3>Tablet and Desktop <span class="small">1st Column (col-md-6 col-lg-4), 2nd Column (col-md-6 col-lg-8)</span></h3>
+    <div class="row">
+      <div class="stack-bg col-md-6 col-lg-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet tempor tortor, vel blandit neque. Ut eros quam, feugiat vel erat sed, semper rutrum nibh. Vivamus felis nunc, scelerisque sit amet consectetur ultrices, pulvinar a orci. Quisque imperdiet urna felis, in mattis nulla viverra sed. Cras iaculis facilisis ligula non consequat. Nullam dapibus cursus est, vel iaculis nunc interdum vitae.</p>
+
+        <p>Quisque consequat iaculis dapibus. Sed consequat nulla justo. Vestibulum bibendum ipsum eros, ut euismod ligula faucibus euismod. Duis eget urna cursus sem fermentum blandit. Curabitur sit amet rutrum massa. Aliquam porttitor nunc rhoncus ante vehicula, ac varius orci eleifend. Aliquam aliquet ex ut ullamcorper consequat. Pellentesque ullamcorper nisl lacus, id consequat odio elementum ac. Donec sodales ipsum eu elementum pretium.</p>
+      </div>
+      <div class="stack-bg col-md-6 col-lg-8">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet tempor to90rtor, vel blandit neque. Ut eros quam, feugiat vel erat sed, semper rutrum vitae.</p>
+        <p>Curabitur sit amet rutrum massa. Aliquam porttitor nunc rhoncus ante vehicula, ac varius orci eleifend. Aliquam aliquet ex ut ullamcorper consequat. Pellentesque ullamcorper nisl lacus, id consequat odio elementum ac. Donec sodales ipsum eu elementum pretium.</p>
+      </div>
+    </div><!-- end .row -->
+  </div><!-- end .container -->
+
+
+  <div class="container">
+    <h3>Mobile, Tablet, Desktops <span class="small">1st Column(col-sm-3 col-md-6 col-lg-8) 2nd(col-sm-9 col-md-6 col-lg-4)</span></h3>
+    <div class="row">
+      <div class="stack-bg col-sm-3 col-md-6 col-lg-8">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet tempor tortor, vel blandit neque. Ut eros quam, feugiat vel erat sed, semper rutrum vitae.</p>
+        <p>Curabitur sit amet rutrum massa. Aliquam porttitor nunc rhoncus ante vehicula, ac varius orci eleifend. Aliquam aliquet ex ut ullamcorper consequat. Pellentesque ullamcorper nisl lacus, id consequat odio elementum ac. Donec sodales ipsum eu elementum pretium.</p>
+      </div>
+      <div class="stack-bg col-sm-9 col-md-6 col-lg-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet tempor tortor, vel blandit neque. Ut eros quam, feugiat vel erat sed, semper rutrum vitae.</p>
+        <p>Curabitur sit amet rutrum massa. Aliquam porttitor nunc rhoncus ante vehicula, ac varius orci eleifend. Aliquam aliquet ex ut ullamcorper consequat. Pellentesque ullamcorper nisl lacus, id consequat odio elementum ac. Donec sodales ipsum eu elementum pretium.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet tempor tortor, vel blandit neque. Ut eros quam, feugiat vel erat sed, semper rutrum vitae.</p>
+        <p>Curabitur sit amet rutrum massa. Aliquam porttitor nunc rhoncus ante vehicula, ac varius orci eleifend. Aliquam aliquet ex ut ullamcorper consequat. Pellentesque ullamcorper nisl lacus, id consequat odio elementum ac. Donec sodales ipsum eu elementum pretium.</p>
+      </div>
+    </div><!-- end .row -->
+  </div><!-- end .container -->
+
+
+<!-- Responsive Column Resets -->
+  <div class="container">
+    <h3>Responsive Column Resets <span class="small">1st Column(col-xs-6 col-sm-3) 2nd(col-sm-9 col-md-6 col-lg-4)</span></h3>
+    <div class="row">
+      <div class="stack-bg col-xs-6 col-sm-3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="stack-bg col-xs-6 col-sm-3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet tempor tortor, vel blandit neque. Ut eros quam, feugiat vel erat sed, semper rutrum vitae.</p>
+        <p>Curabitur sit amet rutrum massa. Aliquam porttitor nunc rhoncus ante vehicula, ac varius orci eleifend. Aliquam aliquet ex ut ullamcorper consequat.</p>
+      </div>
+
+      <div class="clearfix visible-xs"></div>
+
+      <div class="stack-bg col-xs-6 col-sm-3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="stack-bg col-xs-6 col-sm-3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet tempor tortor, vel blandit neque. Ut eros quam, feugiat vel erat sed, semper rutrum vitae.</p>
+        <p>Curabitur sit amet rutrum massa. Aliquam porttitor nunc rhoncus ante vehicula, ac varius orci eleifend. Aliquam aliquet ex ut ullamcorper consequat.</p>
+      </div>
+    </div><!-- end .row -->
+  </div><!-- end .container -->
+
+  <!-- Offset Columns -->
+  <div class="container">
+    <h3>Offset Columns <span class="small">col-xs-6 col-md-offset-3</span></h3>
+    <div class="row">
+      <div class="stack-bg col-xs-6 col-md-offset-3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipsicing elit.</p>
+      </div>
+    </div><!-- end .row -->
+  </div><!-- end .container -->
+
+    <!-- Nested Columns -->
+  <div class="container">
+    <h3>Nested Columns <span class="small">col-md-3</span></h3>
+    <div class="row">
+      <div class="stack-bg col-md-3">
+        <h4>First Column</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipsicing elit.</p>
+      </div>
+
+      <div class="stack-bg col-md-9">
+        <h4>Second Column - Split into 4 boxes</h4>
+        <div class="row">
+          <div class="inner-stack-bg col-md-6">
+            <p>Constructeur art parton culpa semiotics. Pinterest assumenda minim organic quis.</p>
+          </div>
+          <div class="inner-stack-bg col-md-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet tempor tortor, vel blandit neque. Ut eros quam, feugiat vel erat sed, semper rutrum vitae.</p>
+          </div>
+          <div class="inner-stack-bg col-md-6">
+            <p>Ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet tempor tortor, vel blandit neque. Ut eros quam, feugiat vel erat sed, semper rutrum vitaelea.</p>
+          </div>
+        </div><!-- end inner row -->
+        <div class="row">
+          <div class="inner-stack-bg col-md-6">
+            <p>Ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet tempor tortor, vel blandit neque. Ut eros quam, feugiat vel erat sed, semper rutrum vitaelea. Curabitur sit amet rutrum massa. Aliquam porttitor nunc rhoncus ante vehicula, ac varius orci eleifend. Aliquam aliquet ex ut ullamcorper consequat.</p>
+          </div>
+          <div class="inner-stack-bg col-md-6">
+            <p>Curabitur sit amet rutrum massa. Aliquam porttitor nunc rhoncus ante vehicula, ac varius orci eleifend. Aliquam aliquet ex ut ullamcorper consequat.</p>
+          </div>
+        </div><!-- end inner row -->
+      </div>
+    </div><!-- end .row -->
+  </div><!-- end .container -->
+
+
+  <!-- Column Ordering -->
+  <div class="container">
+    <h3>Column Ordering</h3>
+
+    <div class="row">
+      <p>Before Ordering</p>
+      <div class="stack-bg col-md-4">
+        I am on left
+      </div>
+      <div class="stack-bg col-md-8">
+        I am on right
+      </div>
+    </div><!-- end .row -->
+    <br>
+    <div class="row">
+      <p>After Ordering</p>
+      <div class="stack-bg col-md-4 col-md-pull-8">
+        I was on left
+      </div>
+      <div class="stack-bg col-md-8 col-md-pull-4">
+        I was on right
+      </div>
+    </div><!-- end .row -->
+  </div><!-- end .container -->
+  !
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.css"></script>
+</body>
+</html>

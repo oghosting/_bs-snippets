@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+  <title>Element | Typography</title>
+  <meta name="description" content="This is a simple template created by Element Web Development">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-inverse" role="navigation">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Creative Element</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="grid.html">Grid</a></li>
+        <li class="active"><a href="typography.html">Typography</a></li>
+        <li><a href="tables.html">Tables</a></li>
+        <li><a href="contact.php">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav><!-- end #nav -->
+
+  <!-- Basic Grid Structure -->
+  <div class="container">
+    <div class="row">
+      <div class="col-*-*"></div>
+      <div class="col-*-*"></div>
+    </div><!-- end .row -->
+    <div class="row"></div>
+  </div><!-- end .container -->
+
+  <!-- Example: Stacked to Horizontal -->
+  <div class="container">
+    <h1>Element <span class="small">Design &amp; Development</span></h1>
+    <h2>Typography</h2>
+    <div class="row">
+      <h3>Headings &amp; Lead Body</h3>
+      <div class="stack-bg col-md-6">
+        <h1>Heading 1 <small>Secondary</small></h1>
+        <h2>Heading 2 <small>Secondary</small></h2>
+        <h3>Heading 3 <small>Secondary</small></h3>
+        <h4>Heading 4 <small>Secondary</small></h4>
+        <h5>Heading 5 <small>Secondary</small></h5>
+        <h6>Heading 6 <small>Secondary</small></h6>
+      </div>
+      <div class="stack-bg col-md-6">
+        <h2>Lead Example</h2>
+        <p class="lead">This is an example paragraph demonstrating the use of lead body copy. This is an example paragraph demonstrating the use of lead body copy. This is an example paragraph demonstrating the use of lead body copy. This is an example paragraph demonstrating the use of lead body copy.</p>
+        <p>This is an example paragraph demonstrating the use of lead body copy. This is an example paragraph demonstrating the use of lead body copy. This is an example paragraph demonstrating the use of lead body copy. This is an example paragraph demonstrating the use of lead body copy. This is an example paragraph demonstrating the use of lead body copy.</p>
+      </div>
+    </div><!-- end .row -->
+  </div><!-- end .container -->
+
+  <div class="container">
+    <div class="row">
+      <div class="stack-bg col-md-4">
+        <h3>Emphasis</h3>
+        <p>
+          <small>This content is within the &lt;small&gt; tag</small>
+        </p>
+        <p>
+          <strong>This content is within the &lt;strong&gt; tag</strong>
+        </p>
+        <p>
+          <em>This content is within the &lt;em&gt; tag</em>
+        </p>
+        <p class="text-left">Left aligned text</p>
+        <p class="text-center">Center aligned text</p>
+        <p class="text-right">Right aligned text</p>
+        <p class="text-muted">This content is muted</p>
+        <p class="text-primary">This content carries a primary class</p>
+        <p class="text-success">This content carries a success class</p>
+        <p class="text-info">This content carries an info class</p>
+        <p class="text-warning">This content carries a warning class</p>
+        <p class="text-danger">This content carries a danger class</p>
+      </div>
+      <div class="stack-bg col-md-4">
+        <h3>Abbreviations</h3>
+        <abbr title="World Wide Web">WWW</abbr>
+        <abbr title="Really Simple Syndication" class="initialism">RSS</abbr>
+      </div>
+      <div class="stack-bg col-md-4">
+        <h3>Addresses</h3>
+        <!-- Using <address> tag you can display the contact information on your
+        web page. Since the <address> defaults to display:block; you'll need to
+        use line breaks <br> to the enclosed address text.-->
+        <address>
+          <strong>Some Company Inc.</strong><br>
+          007 Street<br>
+          Some City, State XXXXX<br>
+          <abbr title="Phone">P:</abbr> (123) 456-7890
+        </address>
+        <address>
+          <strong>Full Name</strong><br>
+          <a href="mailto:#">mailto@somedomain.com</a>
+        </address>
+        </div
+      </div><!-- end row -->
+
+      <div class="row">
+        <div class="stack-bg col-md-4">
+          <h3>Blockquotes</h3>
+          <!-- You can use the default <blockquote> around any HTML text. Other
+          options include, adding a <small> tag for identifying the source of the
+          quote and right-aligning the blockquote using class .pull-right. The
+          following example demonstrates all these features: -->
+          <blockquote>
+            <p>
+              This is a default blockquote example. This is a default blockquote
+              example. This is a default blockquote example.This is a default
+              blockquote example. This is a default blockquote
+              example.
+            </p>
+          </blockquote>
+
+          <blockquote>
+            This is a blockquote with a source title.
+            <small>
+              Someone famous in
+              <cite title="Source Title">Source Title</cite>
+            </small>
+          </blockquote>
+
+          <blockquote class="pull-right">
+            This is a blockquote aligned to the right.
+            <small>
+              Someone famous in
+              <cite title="Source Title">Source Title</cite>
+            </small>
+          </blockquote>
+        </div><!-- end .row -->
+      </div><!-- end .container -->
+
+      <div class="container">
+        <div class="stack-bg">
+          <h4>Example of Ordered List</h4>
+          <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+          </ol>
+          <h4>Example of UnOrdered List</h4>
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+          </ul>
+          <h4>Example of Unstyled List</h4>
+          <ul class="list-unstyled">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+          </ul>
+          <h4>Example of Inline List</h4>
+          <ul class="list-inline">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+          </ul>
+          <h4>Example of Definition List</h4>
+          <dl>
+            <dt>Description 1</dt>
+            <dd>Item 1</dd>
+            <dt>Description 2</dt>
+            <dd>Item 2</dd>
+          </dl>
+          <h4>Example of Horizontal Definition List</h4>
+          <dl class="dl-horizontal">
+            <dt>Description 1</dt>
+            <dd>Item 1</dd>
+            <dt>Description 2</dt>
+            <dd>Item 2</dd>
+          </dl>
+        </div>
+      </div><!-- end .container -->
+
+      <div class="container">
+        <p><code>&lt;header&gt;</code> is wrapped as an inline element.</p>
+        <p>To display code as a standalone block element use &lt;pre&gt; tag as:
+          <pre>
+            &lt;article&gt;
+            &lt;h1&gt;Article Heading&lt;/h1&gt;
+            &lt;/article&gt;
+          </pre>
+        <p></p>
+      </div><!-- end .container -->
+
+
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://code.jquery.com/jquery.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.css"></script>
+    </div></body>
+    </html>
